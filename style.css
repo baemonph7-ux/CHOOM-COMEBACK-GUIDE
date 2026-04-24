@@ -1,0 +1,150 @@
+#   
+body {  
+  margin: 0;  
+  font-family: Arial, sans-serif;  
+  background: #0b0f1a;  
+  color: white;  
+}  
+  
+.header {  
+  display: flex;  
+  justify-content: space-between;  
+  padding: 15px;  
+  background: #05070d;  
+}  
+  
+.red { color: #ff2a2a; }  
+  
+.kst {  
+  background: #111;  
+  padding: 5px 10px;  
+  border-radius: 10px;  
+}  
+  
+.hero {  
+  padding: 20px;  
+  text-align: center;  
+  background: linear-gradient(180deg,#0b0f1a,#111);  
+}  
+  
+.badge {  
+  background: #111;  
+  display: inline-block;  
+  padding: 6px 12px;  
+  border-radius: 20px;  
+  margin-bottom: 10px;  
+}  
+  
+.subtitle {  
+  color: #aaa;  
+  font-size: 12px;  
+}  
+  
+h2 {  
+  font-size: 32px;  
+  margin: 10px 0;  
+}  
+  
+.countdown {  
+  display: flex;  
+  justify-content: center;  
+  gap: 15px;  
+}  
+  
+.countdown div {  
+  text-align: center;  
+}  
+  
+.countdown span {  
+  font-size: 24px;  
+  color: #ff2a2a;  
+}  
+  
+.buttons {  
+  margin-top: 20px;  
+}  
+  
+.btn {  
+  background: #ff2a2a;  
+  border: none;  
+  padding: 12px 20px;  
+  margin: 5px;  
+  border-radius: 30px;  
+  color: white;  
+  font-weight: bold;  
+}  
+  
+.grid {  
+  display: grid;  
+  grid-template-columns: 1fr 1fr;  
+  gap: 10px;  
+  padding: 15px;  
+}  
+  
+.card {  
+  background: #111827;  
+  padding: 20px;  
+  border-radius: 12px;  
+}  
+  
+.section {  
+  padding: 20px;  
+}  
+  
+.vote-card {  
+  background: #111827;  
+  padding: 15px;  
+  border-radius: 12px;  
+}  
+  
+.tag {  
+  color: #ff2a2a;  
+  font-size: 12px;  
+}  
+  
+.small {  
+  margin-top: 10px;  
+  background: #222;  
+  border: none;  
+  padding: 8px;  
+  color: white;  
+}  
+  
+.stats {  
+  display: flex;  
+  justify-content: space-between;  
+}  
+  
+.bar {  
+  margin-top: 15px;  
+}  
+  
+.progress {  
+  background: #222;  
+  height: 8px;  
+  border-radius: 10px;  
+}  
+  
+.progress span {  
+  display: block;  
+  height: 100%;  
+  background: #ff2a2a;  
+}  
+  
+.announce {  
+  background: #111827;  
+  padding: 15px;  
+  border-radius: 10px;  
+  margin-top: 10px;  
+}  
+  
+.label {  
+  color: #ff2a2a;  
+  font-size: 12px;  
+}  
+  
+.donation {  
+  text-align: center;  
+  padding: 30px;  
+  background: linear-gradient(180deg,#111,#0b0f1a);  
+}  
